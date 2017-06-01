@@ -2,9 +2,6 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 ## Further Resources & Where to Go Next
 
 This Module only provides a brief and basic Introduction to Angular 2 Unit Tests and the Angular 2 Testing Suite. This Course isn't focused on Testing.
