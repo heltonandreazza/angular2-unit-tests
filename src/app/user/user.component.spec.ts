@@ -17,7 +17,9 @@ describe('UserComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [UserComponent],
-      providers: [UserService, DataService]
+      providers: [UserService, DataService] 
+      // P.S. I could set those providers into the UserComponent which is beeing tested, but is better in here because the providers would probably
+      // be better fit in a core or an app module for running the component in an actual project in a browser
     })
       .compileComponents();
   }));
