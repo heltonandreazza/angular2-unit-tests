@@ -6,7 +6,7 @@ import { DataService } from "../shared/data.service";
   selector: 'app-user',
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css'],
-  providers: [UserService, DataService]
+  providers: []
 })
 export class UserComponent implements OnInit {
   user: { name: string };
